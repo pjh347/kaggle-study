@@ -1,9 +1,22 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+kaggle-env/
+KAGGLE-ENV/
+Lib/
+Include/
+Scripts/
 *.egg-info/
-*.egg
-*.pkl
+.eggs/
+dist/
+build/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -11,11 +24,7 @@ __pycache__/
 # VS Code
 .vscode/
 
-# 가상환경
-venv/
-env/
-kaggle-env/
-KAGGLE-ENV/
-Lib/
-Include/
-Scripts/
+# Data
+*.pkl
+*.csv
+*.h5
