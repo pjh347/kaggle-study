@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# 가상환경
+venv/
+env/
+kaggle-env/
+KAGGLE-ENV/
+Lib/
+Include/
+Scripts/
