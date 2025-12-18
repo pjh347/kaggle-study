@@ -51,7 +51,7 @@ sequenceDiagram
     PA->>PA: AddReward or EndEpisode
 ```
 
-```mermiad
+```mermaid
 flowchart LR
     UE[Unity Environment] --> O[Observations]
     O --> COM[ML-Agents Communicator]
